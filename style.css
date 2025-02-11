@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 html {
-    scroll-behavior: smooth;  /* يجعل التمرير أكثر سلاسة */
+    scroll-behavior: smooth;  
 }
 html, body {
     margin: 0;
@@ -49,10 +49,10 @@ border-color: #e1eeff;
 
 
 .navigation {
-    display: flex; /* عرض العناصر بجانب بعضها */
-    gap: 0; /* إزالة أي فجوات بين العناصر */
-    padding: 0; /* إزالة الحواف الداخلية */
-    margin: 0; /* إزالة الحواف الخارجية */
+    display: flex; 
+    gap: 0; 
+    padding: 0; 
+    margin: 0; 
 }
 
 .navigation a {
@@ -71,9 +71,8 @@ border-color: #e1eeff;
 
 .navigation a:hover {
     color: #1133e1;
-    /* background-color: #e1eeff; إضافة لون خلفي عند التمرير */
-    transform: scale(1.1); /* تكبير العنصر عند التمرير */
-    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); إضافة ظل خفيف */
+   
+    transform: scale(1.1); 
 }
 
 
@@ -103,40 +102,40 @@ border-color: #e1eeff;
 }
 
 .main-btn {
-    background-color: #007BFF; /* لون أزرق مشرق */
-    color: white; /* لون النص */
-    padding: 12px 24px; /* حجم داخلي أكبر */
-    text-decoration: none; /* إزالة الخط تحت النص */
-    font-size: 18px; /* حجم النص */
-    font-weight: bold; /* جعل النص عريض */
-    border-radius: 8px; /* جعل الحواف دائرية */
-    display: inline-block; /* ليظهر كمستطيل طبيعي */
-    transition: all 0.3s ease-in-out; /* تأثير ناعم */
+    background-color: #007BFF; 
+    color: white; 
+    padding: 12px 24px; 
+    text-decoration: none; 
+    font-size: 18px; 
+    font-weight: bold; 
+    border-radius: 8px; 
+    display: inline-block; 
+    transition: all 0.3s ease-in-out; 
     box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4); 
     margin-bottom: 13px;
 }
 
 .main-btn:hover {
-    background-color: #0056b3; /* لون أزرق أغمق عند التمرير */
-    box-shadow: 0 6px 15px rgba(0, 123, 255, 0.6); /* تأثير ظل أقوى */
-    transform: scale(1.05); /* تكبير بسيط عند التمرير */
+    background-color: #0056b3; 
+    box-shadow: 0 6px 15px rgba(0, 123, 255, 0.6); 
+    transform: scale(1.05); 
 }
 
     .social_icons a {
-        font-size: 2em; /* حجم الأيقونات */
-        padding-right: 20px; /* مسافة بين الأيقونات */
-        color: white; /* لون الأيقونات الافتراضي */
-        text-decoration: none; /* إزالة الخط السفلي من الروابط */
-        transition: transform 0.3s ease, color 0.3s ease; /* تأثير الانتقال عند التمرير */
+        font-size: 2em; 
+        padding-right: 20px; 
+        color: white; 
+        text-decoration: none; 
+        transition: transform 0.3s ease, color 0.3s ease; 
     }
     
     .social_icons a:hover {
-        color: #00bfff; /* لون جديد عند التمرير (سماوي أنيق) */
-        transform: scale(1.2); /* تكبير الأيقونة قليلاً */
+        color: #00bfff; 
+        transform: scale(1.2); 
     }
     
     .social_icons a:active {
-        transform: scale(1); /* عند النقر، تعود الأيقونة إلى حجمها الطبيعي */
+        transform: scale(1); 
     }
 #services{
     
@@ -249,12 +248,12 @@ border-color: #e1eeff;
     text-align: center;
 }
 .project_title {
-    /* display: flex;
+     display: flex;
     font-weight: 800;
-    align-items: center; /* توسيط عمودي */
-    justify-content: center; /* توسيط أفقي */
-    text-align: center; /* لضمان محاذاة النص في حال كان داخل عنصر أكبر */
-    width: 100%; /* تأكد أن العنصر يأخذ العرض الكامل */
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    width: 100%; 
     text-transform: uppercase;
     
 }
@@ -269,9 +268,9 @@ border-color: #e1eeff;
     margin-top: 10px;
     display: flex;
     font-weight: 800;
-    align-items: center; /* توسيط عمودي */
-    justify-content: center; /* توسيط أفقي */
-    text-align: center; /* لضمان محاذاة النص في حال كان داخل عنصر أكبر */
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
 }   
 .cards_contact .title{
     display: flex;
@@ -300,5 +299,5 @@ border-color: #e1eeff;
     font-size: 1.5em;
     font-weight: 650;
     padding: 10px;
-    /* text-transform: lowercase; */
+
 }
