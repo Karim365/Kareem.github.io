@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html {
+    scroll-behavior: smooth;  /* يجعل التمرير أكثر سلاسة */
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+*{
+    font-family: "Poppins", sans-serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    
+    scroll-behavior: smooth;
+
+
+
+}
+
+header {
+background-color: #e1eeff ;
+width: 100%;
+position: fixed;
+z-index: 1000;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 30px;
+
+
+}
+.logo {
+    text-decoration: none;
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+    background-color: #e1eeff;
+border-color: #e1eeff;
+}
+
+
+.navigation {
+    display: flex; /* عرض العناصر بجانب بعضها */
+    gap: 0; /* إزالة أي فجوات بين العناصر */
+    padding: 0; /* إزالة الحواف الداخلية */
+    margin: 0; /* إزالة الحواف الخارجية */
+}
+
+.navigation a {
+    text-decoration: none; 
+    color: black;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 5px 15px;
+    transition: 
+        color 0.3s ease-in-out, 
+        background-color 0.3s ease-in-out, 
+        padding 0.3s ease-in-out,
+        transform 0.3s ease-in-out, 
+        box-shadow 0.3s ease-in-out;
+}
+
+.navigation a:hover {
+    color: #1133e1;
+    /* background-color: #e1eeff; إضافة لون خلفي عند التمرير */
+    transform: scale(1.1); /* تكبير العنصر عند التمرير */
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); إضافة ظل خفيف */
+}
+
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 200px;
+    background-color: #2C283E;
+    padding: 220px 200px;
+    
+}
+
+.main h2 {
+    font-size: 2.em;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 5px;
+}
+.main h1{
+    font-size: 2.5em;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 10px;
+    
+}
+
+.main-btn {
+    background-color: #007BFF; /* لون أزرق مشرق */
+    color: white; /* لون النص */
+    padding: 12px 24px; /* حجم داخلي أكبر */
+    text-decoration: none; /* إزالة الخط تحت النص */
+    font-size: 18px; /* حجم النص */
+    font-weight: bold; /* جعل النص عريض */
+    border-radius: 8px; /* جعل الحواف دائرية */
+    display: inline-block; /* ليظهر كمستطيل طبيعي */
+    transition: all 0.3s ease-in-out; /* تأثير ناعم */
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4); 
+    margin-bottom: 13px;
+}
+
+.main-btn:hover {
+    background-color: #0056b3; /* لون أزرق أغمق عند التمرير */
+    box-shadow: 0 6px 15px rgba(0, 123, 255, 0.6); /* تأثير ظل أقوى */
+    transform: scale(1.05); /* تكبير بسيط عند التمرير */
+}
+
+    .social_icons a {
+        font-size: 2em; /* حجم الأيقونات */
+        padding-right: 20px; /* مسافة بين الأيقونات */
+        color: white; /* لون الأيقونات الافتراضي */
+        text-decoration: none; /* إزالة الخط السفلي من الروابط */
+        transition: transform 0.3s ease, color 0.3s ease; /* تأثير الانتقال عند التمرير */
+    }
+    
+    .social_icons a:hover {
+        color: #00bfff; /* لون جديد عند التمرير (سماوي أنيق) */
+        transform: scale(1.2); /* تكبير الأيقونة قليلاً */
+    }
+    
+    .social_icons a:active {
+        transform: scale(1); /* عند النقر، تعود الأيقونة إلى حجمها الطبيعي */
+    }
+#services{
+    
+    background-color: #e1eeff;
+    
+}
+.title{ 
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 2.2em;
+    
+    padding-top: 60px;
+    font-weight: 800;   
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: white;
+    
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 30%);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px;
+    transition: all 0.3s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+.icon_net {
+    font-size: 6em;
+    color: black;
+    text-align: center;
+}
+.icon { 
+    font-size: 6em;
+    color: #007BFF;
+    
+    text-align: center;
+}
+.icon_bug{
+    font-size: 6em;
+    color: black;
+    text-align: center;
+}
+
+
+.info {
+    text-align: center;
+}
+.info h3{
+
+    color: #1F2937;
+    font-size: 1.5em;
+    font-weight: 650;
+    
+}
+.info p{
+    color: #000000;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 10px;
+}
+.projects{
+    background-color: black;
+}
+.projects .title{
+    color: white;
+    
+    font-weight: 800;
+}
+#projects {
+    padding: 30px 0;
+}
+.projects .content{
+    margin-top: 30px;
+}
+.project-card{
+    background-color: white;
+    width: 10.25em;
+    border: 1px solid white;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.project-card:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+.project-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+
+
+}
+.project-info{
+     font-size: 1.5em; 
+    padding: 10px;
+    text-align: center;
+}
+.project_title {
+    /* display: flex;
+    font-weight: 800;
+    align-items: center; /* توسيط عمودي */
+    justify-content: center; /* توسيط أفقي */
+    text-align: center; /* لضمان محاذاة النص في حال كان داخل عنصر أكبر */
+    width: 100%; /* تأكد أن العنصر يأخذ العرض الكامل */
+    text-transform: uppercase;
+    
+}
+.cards_contact{
+    background-color: #e1eeff;
+    
+}
+.cards_contact .card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    display: flex;
+    font-weight: 800;
+    align-items: center; /* توسيط عمودي */
+    justify-content: center; /* توسيط أفقي */
+    text-align: center; /* لضمان محاذاة النص في حال كان داخل عنصر أكبر */
+}   
+.cards_contact .title{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 2.6em;
+    font-weight: 800;
+}
+.cards_contact .icon{
+
+    padding: 10px 10px;
+    
+}
+.cards_contact .info{
+    text-align: center;
+
+
+}
+.cards_contact .info_number  {
+    color: #1F2937;
+    font-size: 1.5em;
+    font-weight: 650;
+}
+.cards_contact .info_email {
+    color: #000000;
+    font-size: 1.5em;
+    font-weight: 650;
+    padding: 10px;
+    /* text-transform: lowercase; */
+}
